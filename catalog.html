@@ -43,11 +43,25 @@
       </ul>
       <div class="content">
         <div class="filters">
-          
+          <form id="filters" name="filters" action="" method="post">
+            <p><b>Производители:</b></p>
+            <p><input type="checkbox" name="brand" value="baxter" checked id="ch1"><label for="ch1">Baxter of California</label></p>
+            <p><input type="checkbox" name="brand" value="natty" id="ch2"><label for="ch2">Mr Natty</label></p>
+            <p><input type="checkbox" name="brand" value="suave" checked id="ch3"><label for="ch3">Suavecito</label></p>
+            <p><input type="checkbox" name="brand" value="malin" id="ch4"><label for="ch4">Malin+Goetz</label></p>
+            <p><input type="checkbox" name="brand" value="murray" id="ch5"><label for="ch5">Murray’s</label></p>
+            <p><input type="checkbox" name="brand" value="crew" checked id="ch6"><label for="ch6">American Crew</label></p>
+
+            <p><b>Группы товаров:</b></p>
+            <p><input type="radio" name="group" value="edge" id="rd1"><label for="rd1">Бритвенные принадлежности</label></p>
+            <p><input type="radio" name="group" value="treat" checked id="rd2"><label for="rd2">Средства для ухода</label></p>
+            <p><input type="radio" name="group" value="acces" id="rd3"><label for="rd3">Аксессуары</label></p>
+
+            <p><input type="submit" value="Показать"></p>
+          </form>  
         </div>
         <div class="gallery">
           <ul class="gallery-items">
-
             <li class="item">
               <a class="item-desc" href="#">
                 <img class="item-desc-pic" src="img/placehold.it" alt="pic" width="220" height="165">
