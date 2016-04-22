@@ -35,7 +35,10 @@
       </div>
     </header>
     <main class="container">
+      <!-- заголовок h1, можно добавить class="main-header"-->
     <h1>Средства для ухода</h1>
+
+    <!-- не надо оборачивать в <nav>, <nav> - это основная навигация -->
     <ul class="breadcrumbs">
       <li><a href="#">Главная</a></li>
       <li><a href="#">Магазин</a></li>
@@ -44,8 +47,11 @@
     <div class="catalog-content">
       <div class="catalog-content-left">
         <form id="filters" class="filters" name="filters" action="" method="post">
+          <!-- можно <div> или <fieldset> или <legend> -->
           <p><b>Производители:</b></p>
           <p><input type="checkbox" name="brand" value="baxter" checked id="ch1"><label for="ch1">Baxter of California</label></p>
+
+          <!-- можно в li помещать или в div -->
           <p><input type="checkbox" name="brand" value="natty" id="ch2"><label for="ch2">Mr Natty</label></p>
           <p><input type="checkbox" name="brand" value="suave" checked id="ch3"><label for="ch3">Suavecito</label></p>
           <p><input type="checkbox" name="brand" value="malin" id="ch4"><label for="ch4">Malin+Goetz</label></p>
