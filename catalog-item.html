@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <div class="index-logo">
             <img src="img/logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
         </div>
@@ -45,16 +45,28 @@
         <li><a href="#">Набор для путешествий "Baxter of California"</a></li>
       </ul>
 
-      <div class="catalog-item-content">
+      <div class="catalog-item-content clearfix">
         
         <div class="catalog-item-gallery">
           <figure>
-            <img src="img/item-01-full.jpg" alt="pic" width="460" height="498">
+            <img class="pic-shadow" src="img/item-01-full.jpg" alt="pic" width="460" height="498">
           </figure>
           <ul>
-            <li><a href="#"><img src="img/item-01-thumb1.png" alt="pic" width="140" height="149"></a></li>
-            <li><a href="#"><img src="img/item-01-thumb2.png" alt="pic" width="140" height="149"></a></li>
-            <li><a href="#"><img src="img/item-01-thumb3.png" alt="pic" width="140" height="149"></a></li>
+            <li class="item-gallery-thumb">
+              <a href="#">
+                <img class="pic-shadow" src="img/item-01-thumb1.png" alt="pic" width="140" height="149">
+              </a>
+            </li>
+            <li class="item-gallery-thumb">
+              <a href="#">
+                <img class="pic-shadow" src="img/item-01-thumb2.png" alt="pic" width="140" height="149">
+              </a>
+            </li>
+            <li class="item-gallery-thumb">
+              <a href="#">
+                <img class="pic-shadow" src="img/item-01-thumb3.png" alt="pic" width="140" height="149">
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -83,7 +95,7 @@
       </div>
     </main>
     <footer class="main-footer">
-          <div class="container">
+          <div class="container clearfix">
             <!-- можно <p> или <div> вместо <section> -->
             <section class="footer-contacts">
               Барбершоп «Бородинский»<br>
